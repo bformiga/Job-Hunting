@@ -168,8 +168,9 @@ def assess(job, prefs):
     published = job.get("posted_at", "")
     if published:
         try:
-            age = max(0, (datetime.now(timezone.utc)-datetime.fromisoformat(published.replace("Z", "+00:00"))).days)
-            if age > 15:
+            age_seconds = (datetime.now(timezone.utc)-datetime.fromisoformat(published.replace("Z", "+00:00"))).total_seconds()
+            age = int(age_seconds // 86400)
+            if age_seconds < 0 or age_seconds > 15 * 86400:
                 return None
             freshness = 10 if age <= 3 else 7 if age <= 7 else 4 if age <= 14 else 2 if age <= 30 else 0
             evidence.append(f"Employer posting age: {age} days; freshness +{freshness}")
@@ -248,7 +249,7 @@ def collect(board):
             break
         try:
             d = get_json(api + path)["jobPostingInfo"]
-            jobs.append(canonical(board, d.get("jobReqId") or path.rsplit("_", 1)[-1], d.get("title", j["title"]), d.get("location", j.get("locationsText", "")), f"https://{board['host']}/en-US/{board['site']}{path}", d.get("jobDescription", ""), employment_type=d.get("timeType", ""), posted_at=d.get("postedOn", "") if re.match(r"^\d{4}-\d{2}-\d{2}", d.get("postedOn", "")) else ""))
+            jobs.append(canonical(board, d.get("jobReqId") or path.rsplit("_", 1)[-1], d.get("title", j["title"]), d.get("location", j.get("locationsText", "")), f"https://{board['host']}/en-US/{board['site']}{path}", d.get("jobDescription", ""), employment_type=d.get("timeType", ""), posted_at=d.get("startDate", "") if re.match(r"^\d{4}-\d{2}-\d{2}$", d.get("startDate", "")) else d.get("postedOn", "") if re.match(r"^\d{4}-\d{2}-\d{2}", d.get("postedOn", "")) else ""))
             time.sleep(0.2)
         except (urllib.error.URLError, ValueError, KeyError) as e:
             complete = False
@@ -269,6 +270,15 @@ def reconcile(previous, observed, health, timestamp):
     for key, j in list(merged.items()):
         if key not in seen:
             merged[key] = {**j, "availability": "Not seen in latest complete search" if states.get(j["source"]) == "ok" else "Source incomplete / unavailable; retained"}
+    cutoff_time = datetime.fromisoformat(timestamp.replace("Z", "+00:00"))
+    for key, j in merged.items():
+        try:
+            published = datetime.fromisoformat(j.get("posted_at", "").replace("Z", "+00:00"))
+            age_seconds = (cutoff_time - published).total_seconds()
+            if age_seconds < 0 or age_seconds > 15 * 86400:
+                j["availability"] = "Outside 15-day window; history only"
+        except (ValueError, TypeError):
+            j["availability"] = "Posting date unverified; review only; " + j["availability"]
     return sorted(merged.values(), key=lambda j: (-j["priority"], j["company"], j["id"]))
 
 
