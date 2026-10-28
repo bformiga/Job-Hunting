@@ -166,7 +166,7 @@ function refreshViews() {
   unknown.setFrozenRows(1);
   const indices = indexRows(rows);
   const view = ss.getSheetByName('Apply Next');
-  if (view.getLastRow()>3) view.getRange(4,1,view.getLastRow()-3,9).clearContent();
+  // Retain old derived rows; a current-ID filter hides stale entries.
   const props = PropertiesService.getDocumentProperties();
   const values = shortlist(rows, Number(props.getProperty('shortlistLimit'))||25, Number(props.getProperty('shortlistPerCompany'))||5).map(r=>{
     const jobUrl = String(r[14]).replace(/"/g,'""');
@@ -175,6 +175,12 @@ function refreshViews() {
     return [textCell(r[4]), '=HYPERLINK("'+jobUrl+'","'+title+'")',loc,r[7],r[9],textCell(r[10]),textCell(r[12]),'=HYPERLINK("'+ss.getUrl()+'#gid='+jobs.getSheetId()+'&range=A'+indices.get(String(r[15]))+'","Edit status / notes")',textCell(r[15])];
   });
   if (values.length) view.getRange(4,1,values.length,9).setValues(values);
+  const oldFilter = view.getFilter();
+  if(oldFilter) oldFilter.remove();
+  const currentIds = values.map(r=>String(r[8]).replace(/"/g,'""'));
+  const formula = currentIds.length ? '=OR('+currentIds.map(id=>'$I4="'+id+'"').join(',')+')' : '=FALSE';
+  view.getRange(3,1,Math.max(2,view.getLastRow()-2),9).createFilter().setColumnFilterCriteria(9,
+    SpreadsheetApp.newFilterCriteria().whenFormulaSatisfied(formula).build());
 }
 
 function installDailyTrigger() {
