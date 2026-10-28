@@ -20,7 +20,7 @@ const headers=['Status','Applied date','Follow-up','Notes','Company','Job title'
 const sheets={'Unknown Dates':makeSheet([]),Jobs:makeSheet([headers]),Settings:makeSheet([[],['Feed URL','https://raw.githubusercontent.com/test/repo/main/data/jobs.json']]),Sources:makeSheet([Array(9).fill('Header')]),'Apply Next':makeSheet([[],[],[]])};
 ctx.PropertiesService={getDocumentProperties:()=>({setProperty(){},getProperty(){return null}})};
 ctx.LockService={getDocumentLock:()=>({waitLock(){},releaseLock(){}})};
-ctx.SpreadsheetApp={newFilterCriteria:()=>({whenTextEqualTo(){return this},build(){return {}}}),getActiveSpreadsheet:()=>({getSheetByName:n=>sheets[n],getUrl:()=> 'https://docs.google.com/spreadsheets/d/test/edit'}),newDataValidation:()=>({requireValueInList(){return this},setAllowInvalid(){return this},build(){return {}}})};
+ctx.SpreadsheetApp={newFilterCriteria:()=>({whenTextEqualTo(){return this},whenFormulaSatisfied(){return this},build(){return {}}}),getActiveSpreadsheet:()=>({getSheetByName:n=>sheets[n],getUrl:()=> 'https://docs.google.com/spreadsheets/d/test/edit'}),newDataValidation:()=>({requireValueInList(){return this},setAllowInvalid(){return this},build(){return {}}})};
 feed.jobs[0]={...feed.jobs[0],company:'Employer',location:'Austin, TX',location_fit:'Austin metro',availability:'Seen in latest search',first_seen:feed.generated_at,last_seen:feed.generated_at,source:'test'};
 ctx.UrlFetchApp={fetch:()=>({getResponseCode:()=>200,getContentText:()=>JSON.stringify(feed)})};
 ctx.syncJobs();

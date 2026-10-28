@@ -168,7 +168,7 @@ def assess(job, prefs):
     published = job.get("posted_at", "")
     if published:
         try:
-            age_seconds = (datetime.now(timezone.utc)-datetime.fromisoformat(published.replace("Z", "+00:00"))).total_seconds()
+            age_seconds = (datetime.now(timezone.utc)-datetime.fromisoformat(published.replace("Z", "+00:00")).replace(tzinfo=timezone.utc)).total_seconds()
             age = int(age_seconds // 86400)
             if age_seconds < 0 or age_seconds > 15 * 86400:
                 return None
@@ -242,7 +242,12 @@ def collect(board):
                 if isinstance(e, urllib.error.HTTPError) and e.code in (403, 429):
                     return jobs, False, errors
                 break
-    for i, (path, j) in enumerate(listings.items()):
+    # Prioritize US and graduate listings before spending detail budget.
+    ordered = sorted(listings.items(), key=lambda item: (
+        not bool(re.search(r"united states|\bUS\b|USA|California|Texas|Oregon|Arizona", item[1].get("locationsText", ""), re.I)),
+        not bool(re.search(r"new.college|new.grad|graduate|entry.level|2027", item[1]["title"], re.I))
+    ))
+    for i, (path, j) in enumerate(ordered):
         if i >= board.get("max_details", 100):
             complete = False
             errors.append("Detail cap reached")
@@ -273,7 +278,7 @@ def reconcile(previous, observed, health, timestamp):
     cutoff_time = datetime.fromisoformat(timestamp.replace("Z", "+00:00"))
     for key, j in merged.items():
         try:
-            published = datetime.fromisoformat(j.get("posted_at", "").replace("Z", "+00:00"))
+            published = datetime.fromisoformat(j.get("posted_at", "").replace("Z", "+00:00")).replace(tzinfo=timezone.utc)
             age_seconds = (cutoff_time - published).total_seconds()
             if age_seconds < 0 or age_seconds > 15 * 86400:
                 j["availability"] = "Outside 15-day window; history only"

@@ -154,12 +154,14 @@
     "tenant": "marvell",
     "site": "MarvellCareers",
     "search_terms": [
-      "new grad",
+      "new college grad",
+      "new graduate",
       "RTL",
-      "verification"
+      "verification",
+      "silicon validation"
     ],
-    "max_pages": 2,
-    "max_details": 20,
+    "max_pages": 4,
+    "max_details": 60,
     "careers_url": "https://marvell.wd1.myworkdayjobs.com/en-US/MarvellCareers",
     "context": "Scoped keyword search; endpoint schema verified; caps reported."
   },
@@ -171,12 +173,14 @@
     "tenant": "nvidia",
     "site": "NVIDIAExternalCareerSite",
     "search_terms": [
+      "new college grad",
+      "new graduate",
       "RTL",
       "verification",
-      "new grad"
+      "silicon validation"
     ],
-    "max_pages": 2,
-    "max_details": 20,
+    "max_pages": 4,
+    "max_details": 60,
     "careers_url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite",
     "context": "Public board previously verified; source health reported each run."
   },
@@ -188,12 +192,14 @@
     "tenant": "intel",
     "site": "External",
     "search_terms": [
+      "new college grad",
+      "new graduate",
       "RTL",
       "verification",
-      "new grad"
+      "silicon validation"
     ],
-    "max_pages": 2,
-    "max_details": 20,
+    "max_pages": 4,
+    "max_details": 60,
     "careers_url": "https://intel.wd1.myworkdayjobs.com/en-US/External",
     "context": "Public board previously verified; source health reported each run."
   },
@@ -223,12 +229,14 @@
     "tenant": "micron",
     "site": "External",
     "search_terms": [
+      "new college grad",
+      "new graduate",
       "RTL",
       "verification",
-      "new grad"
+      "silicon validation"
     ],
-    "max_pages": 2,
-    "max_details": 20,
+    "max_pages": 4,
+    "max_details": 60,
     "careers_url": "https://micron.wd1.myworkdayjobs.com/en-US/External",
     "context": "Public board previously verified; source health reported each run."
   },
@@ -240,12 +248,14 @@
     "tenant": "nxp",
     "site": "careers",
     "search_terms": [
-      "new grad",
+      "new college grad",
+      "new graduate",
       "RTL",
-      "verification"
+      "verification",
+      "silicon validation"
     ],
-    "max_pages": 2,
-    "max_details": 20,
+    "max_pages": 4,
+    "max_details": 60,
     "careers_url": "https://nxp.wd3.myworkdayjobs.com/en-US/careers",
     "context": "Scoped keyword search; endpoint schema verified; caps reported."
   },
@@ -257,12 +267,14 @@
     "tenant": "broadcom",
     "site": "External_Career",
     "search_terms": [
-      "new grad",
+      "new college grad",
+      "new graduate",
       "RTL",
-      "verification"
+      "verification",
+      "silicon validation"
     ],
-    "max_pages": 2,
-    "max_details": 20,
+    "max_pages": 4,
+    "max_details": 60,
     "careers_url": "https://broadcom.wd1.myworkdayjobs.com/en-US/External_Career",
     "context": "Scoped keyword search; endpoint schema verified; caps reported."
   },
@@ -274,12 +286,14 @@
     "tenant": "kla",
     "site": "Search",
     "search_terms": [
-      "new grad",
+      "new college grad",
+      "new graduate",
       "RTL",
-      "verification"
+      "verification",
+      "silicon validation"
     ],
-    "max_pages": 2,
-    "max_details": 20,
+    "max_pages": 4,
+    "max_details": 60,
     "careers_url": "https://kla.wd1.myworkdayjobs.com/en-US/Search",
     "context": "Scoped keyword search; endpoint schema verified; caps reported."
   },
@@ -291,12 +305,14 @@
     "tenant": "cadence",
     "site": "External_Careers",
     "search_terms": [
-      "new grad",
+      "new college grad",
+      "new graduate",
       "RTL",
-      "verification"
+      "verification",
+      "silicon validation"
     ],
-    "max_pages": 2,
-    "max_details": 20,
+    "max_pages": 4,
+    "max_details": 60,
     "careers_url": "https://cadence.wd1.myworkdayjobs.com/en-US/External_Careers",
     "context": "Scoped keyword search; endpoint schema verified; caps reported."
   },
@@ -308,12 +324,14 @@
     "tenant": "microchiphr",
     "site": "External",
     "search_terms": [
-      "new grad",
+      "new college grad",
+      "new graduate",
       "RTL",
-      "verification"
+      "verification",
+      "silicon validation"
     ],
-    "max_pages": 2,
-    "max_details": 20,
+    "max_pages": 4,
+    "max_details": 60,
     "careers_url": "https://microchiphr.wd5.myworkdayjobs.com/en-US/External",
     "context": "Scoped keyword search; endpoint schema verified; caps reported."
   },
