@@ -18,11 +18,18 @@ function textCell(value) {
   return /^[=+@\-]/.test(s) ? "'" + s : s;
 }
 
+function freshAvailability(j) {
+  const age = Date.now() - Date.parse(j.posted_at || '');
+  if (!Number.isFinite(age)) return 'Posting date unverified; review only';
+  if (age < 0 || age > 15*86400000) return 'Outside 15-day window; history only';
+  return j.availability;
+}
+
 function autoFields(j) {
   if (!/^https:\/\//i.test(j.url)) throw new Error('Invalid job link: ' + j.id);
   const title = String(j.title).replace(/"/g,'""');
   const url = String(j.url).replace(/"/g,'""');
-  return [textCell(j.company), '=HYPERLINK("'+url+'","'+title+'")', textCell(j.location), Number(j.role_score), textCell(j.location_fit), Number(j.priority), textCell(j.experience), textCell(j.salary), textCell(j.flags), textCell(j.evidence), j.url, textCell(j.id), textCell(j.availability), j.first_seen ? new Date(j.first_seen) : '', j.last_seen ? new Date(j.last_seen) : '', textCell(j.source)];
+  return [textCell(j.company), '=HYPERLINK("'+url+'","'+title+'")', textCell(j.location), Number(j.role_score), textCell(j.location_fit), Number(j.priority), textCell(j.experience), textCell(j.salary), textCell(j.flags), textCell(j.evidence), j.url, textCell(j.id), textCell(freshAvailability(j)), j.first_seen ? new Date(j.first_seen) : '', j.last_seen ? new Date(j.last_seen) : '', textCell(j.source)];
 }
 
 function validateFeed(feed) {
@@ -92,6 +99,10 @@ function syncJobs() {
     cfg.getRange('B5').setValue('Sync succeeded; '+feed.jobs.length+' feed jobs; '+feed.source_status.filter(s=>s.status!=='ok').length+' sources need review');
     PropertiesService.getDocumentProperties().setProperty('shortlistLimit', String(Number(feed.preferences && feed.preferences.shortlist_limit)||25));
     PropertiesService.getDocumentProperties().setProperty('shortlistPerCompany', String(Number(feed.preferences && feed.preferences.shortlist_per_company)||5));
+    const filter = sh.getFilter();
+    if (filter) filter.remove();
+    sh.getRange(1,1,last,20).createFilter().setColumnFilterCriteria(17,
+      SpreadsheetApp.newFilterCriteria().whenTextEqualTo('Seen in latest search').build());
     refreshViews();
   } catch(e) {
     SpreadsheetApp.getActiveSpreadsheet().getSheetByName('Settings').getRange('B5').setValue('Sync failed: '+e.message);
