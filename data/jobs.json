@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-28T03:54:39+00:00",
+  "generated_at": "2026-10-28T04:04:43+00:00",
   "source_status": [
     {
       "source": "alifsemiconductor",
@@ -9,7 +9,7 @@
       "scope": "Full public board",
       "collected": 0,
       "matched": 0,
-      "checked_at": "2026-10-28T03:54:39+00:00",
+      "checked_at": "2026-10-28T04:04:43+00:00",
       "error": "HTTPError: HTTP Error 404: Not Found",
       "careers_url": "https://job-boards.greenhouse.io/alifsemiconductor",
       "context": "Candidate source; endpoint and coverage require live verification."
@@ -21,7 +21,7 @@
       "scope": "Full public board",
       "collected": 0,
       "matched": 0,
-      "checked_at": "2026-10-28T03:54:39+00:00",
+      "checked_at": "2026-10-28T04:04:43+00:00",
       "error": "HTTPError: HTTP Error 404: Not Found",
       "careers_url": "https://job-boards.greenhouse.io/amperecomputing",
       "context": "Candidate source; endpoint and coverage require live verification."
@@ -33,7 +33,7 @@
       "scope": "Full public board",
       "collected": 0,
       "matched": 0,
-      "checked_at": "2026-10-28T03:54:39+00:00",
+      "checked_at": "2026-10-28T04:04:43+00:00",
       "error": "HTTPError: HTTP Error 404: Not Found",
       "careers_url": "https://job-boards.greenhouse.io/analoginference",
       "context": "Candidate source; endpoint and coverage require live verification."
@@ -43,9 +43,9 @@
       "company": "Anduril",
       "status": "ok",
       "scope": "Full public board",
-      "collected": 2526,
+      "collected": 2527,
       "matched": 18,
-      "checked_at": "2026-10-28T03:54:39+00:00",
+      "checked_at": "2026-10-28T04:04:43+00:00",
       "error": "",
       "careers_url": "https://job-boards.greenhouse.io/andurilindustries",
       "context": "Candidate source; endpoint and coverage require live verification."
@@ -57,7 +57,7 @@
       "scope": "Full public board",
       "collected": 178,
       "matched": 1,
-      "checked_at": "2026-10-28T03:54:39+00:00",
+      "checked_at": "2026-10-28T04:04:43+00:00",
       "error": "",
       "careers_url": "https://job-boards.greenhouse.io/asteralabs",
       "context": "Candidate source; endpoint and coverage require live verification."
@@ -69,7 +69,7 @@
       "scope": "Full public board",
       "collected": 186,
       "matched": 1,
-      "checked_at": "2026-10-28T03:54:39+00:00",
+      "checked_at": "2026-10-28T04:04:43+00:00",
       "error": "",
       "careers_url": "https://job-boards.greenhouse.io/astranis",
       "context": "Candidate source; endpoint and coverage require live verification."
@@ -81,7 +81,7 @@
       "scope": "Full public board",
       "collected": 0,
       "matched": 0,
-      "checked_at": "2026-10-28T03:54:39+00:00",
+      "checked_at": "2026-10-28T04:04:43+00:00",
       "error": "HTTPError: HTTP Error 404: Not Found",
       "careers_url": "https://job-boards.greenhouse.io/ayarlabs",
       "context": "Candidate source; endpoint and coverage require live verification."
@@ -93,7 +93,7 @@
       "scope": "Full public board",
       "collected": 0,
       "matched": 0,
-      "checked_at": "2026-10-28T03:54:39+00:00",
+      "checked_at": "2026-10-28T04:04:43+00:00",
       "error": "HTTPError: HTTP Error 404: Not Found",
       "careers_url": "https://job-boards.greenhouse.io/celestialai",
       "context": "Candidate source; endpoint and coverage require live verification."
@@ -105,7 +105,7 @@
       "scope": "Full public board",
       "collected": 0,
       "matched": 0,
-      "checked_at": "2026-10-28T03:54:39+00:00",
+      "checked_at": "2026-10-28T04:04:43+00:00",
       "error": "HTTPError: HTTP Error 404: Not Found",
       "careers_url": "https://job-boards.greenhouse.io/cerebrassystems",
       "context": "Candidate source; endpoint and coverage require live verification."
@@ -117,7 +117,7 @@
       "scope": "Full public board",
       "collected": 0,
       "matched": 0,
-      "checked_at": "2026-10-28T03:54:39+00:00",
+      "checked_at": "2026-10-28T04:04:43+00:00",
       "error": "HTTPError: HTTP Error 404: Not Found",
       "careers_url": "https://job-boards.greenhouse.io/enfabrica",
       "context": "Candidate source; endpoint and coverage require live verification."
@@ -129,7 +129,7 @@
       "scope": "Full public board",
       "collected": 0,
       "matched": 0,
-      "checked_at": "2026-10-28T03:54:39+00:00",
+      "checked_at": "2026-10-28T04:04:43+00:00",
       "error": "HTTPError: HTTP Error 404: Not Found",
       "careers_url": "https://job-boards.greenhouse.io/etched",
       "context": "Candidate source; endpoint and coverage require live verification."
@@ -141,7 +141,7 @@
       "scope": "Full public board",
       "collected": 0,
       "matched": 0,
-      "checked_at": "2026-10-28T03:54:39+00:00",
+      "checked_at": "2026-10-28T04:04:43+00:00",
       "error": "HTTPError: HTTP Error 404: Not Found",
       "careers_url": "https://job-boards.greenhouse.io/groq",
       "context": "Candidate source; endpoint and coverage require live verification."
@@ -153,7 +153,7 @@
       "scope": "Keyword search with page/detail caps",
       "collected": 20,
       "matched": 8,
-      "checked_at": "2026-10-28T03:54:39+00:00",
+      "checked_at": "2026-10-28T04:04:43+00:00",
       "error": "Detail cap reached",
       "careers_url": "https://intel.wd1.myworkdayjobs.com/en-US/External",
       "context": "Scoped hardware search; pagination and detail limits reported."
@@ -165,7 +165,7 @@
       "scope": "Full public board",
       "collected": 62,
       "matched": 1,
-      "checked_at": "2026-10-28T03:54:39+00:00",
+      "checked_at": "2026-10-28T04:04:43+00:00",
       "error": "",
       "careers_url": "https://job-boards.greenhouse.io/lightmatter",
       "context": "Candidate source; endpoint and coverage require live verification."
@@ -177,7 +177,7 @@
       "scope": "Full public board",
       "collected": 0,
       "matched": 0,
-      "checked_at": "2026-10-28T03:54:39+00:00",
+      "checked_at": "2026-10-28T04:04:43+00:00",
       "error": "HTTPError: HTTP Error 404: Not Found",
       "careers_url": "https://job-boards.greenhouse.io/marvell",
       "context": "Candidate source; endpoint and coverage require live verification."
@@ -189,7 +189,7 @@
       "scope": "Keyword search with page/detail caps",
       "collected": 13,
       "matched": 2,
-      "checked_at": "2026-10-28T03:54:39+00:00",
+      "checked_at": "2026-10-28T04:04:43+00:00",
       "error": "Page cap reached for RTL; Page cap reached for verification; Page cap reached for new grad",
       "careers_url": "https://micron.wd1.myworkdayjobs.com/en-US/External",
       "context": "Scoped hardware search; pagination and detail limits reported."
@@ -201,7 +201,7 @@
       "scope": "Keyword search with page/detail caps",
       "collected": 20,
       "matched": 7,
-      "checked_at": "2026-10-28T03:54:39+00:00",
+      "checked_at": "2026-10-28T04:04:43+00:00",
       "error": "Detail cap reached",
       "careers_url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite",
       "context": "Scoped hardware search; pagination and detail limits reported."
@@ -213,7 +213,7 @@
       "scope": "Keyword search with page/detail caps",
       "collected": 0,
       "matched": 0,
-      "checked_at": "2026-10-28T03:54:39+00:00",
+      "checked_at": "2026-10-28T04:04:43+00:00",
       "error": "RTL: HTTP Error 422: Unprocessable Entity; verification: HTTP Error 422: Unprocessable Entity; new grad: HTTP Error 422: Unprocessable Entity",
       "careers_url": "https://qualcomm.wd5.myworkdayjobs.com/en-US/External",
       "context": "Scoped hardware search; pagination and detail limits reported."
@@ -225,7 +225,7 @@
       "scope": "Full public board",
       "collected": 0,
       "matched": 0,
-      "checked_at": "2026-10-28T03:54:39+00:00",
+      "checked_at": "2026-10-28T04:04:43+00:00",
       "error": "HTTPError: HTTP Error 404: Not Found",
       "careers_url": "https://job-boards.greenhouse.io/rivos",
       "context": "Candidate source; endpoint and coverage require live verification."
@@ -237,7 +237,7 @@
       "scope": "Full public board",
       "collected": 69,
       "matched": 2,
-      "checked_at": "2026-10-28T03:54:39+00:00",
+      "checked_at": "2026-10-28T04:04:43+00:00",
       "error": "",
       "careers_url": "https://job-boards.greenhouse.io/sambanovasystems",
       "context": "Candidate source; endpoint and coverage require live verification."
@@ -249,7 +249,7 @@
       "scope": "Full public board",
       "collected": 0,
       "matched": 0,
-      "checked_at": "2026-10-28T03:54:39+00:00",
+      "checked_at": "2026-10-28T04:04:43+00:00",
       "error": "HTTPError: HTTP Error 404: Not Found",
       "careers_url": "https://job-boards.greenhouse.io/sifive",
       "context": "Candidate source; endpoint and coverage require live verification."
@@ -261,7 +261,7 @@
       "scope": "Full public board",
       "collected": 2834,
       "matched": 19,
-      "checked_at": "2026-10-28T03:54:39+00:00",
+      "checked_at": "2026-10-28T04:04:43+00:00",
       "error": "",
       "careers_url": "https://job-boards.greenhouse.io/spacex",
       "context": "Candidate source; endpoint and coverage require live verification."
@@ -273,7 +273,7 @@
       "scope": "Full public board",
       "collected": 121,
       "matched": 0,
-      "checked_at": "2026-10-28T03:54:39+00:00",
+      "checked_at": "2026-10-28T04:04:43+00:00",
       "error": "",
       "careers_url": "https://job-boards.greenhouse.io/tenstorrent",
       "context": "Candidate source; endpoint and coverage require live verification."
@@ -285,7 +285,7 @@
       "scope": "Full public board",
       "collected": 0,
       "matched": 0,
-      "checked_at": "2026-10-28T03:54:39+00:00",
+      "checked_at": "2026-10-28T04:04:43+00:00",
       "error": "HTTPError: HTTP Error 404: Not Found",
       "careers_url": "https://job-boards.greenhouse.io/d-matrix",
       "context": "Candidate source; endpoint and coverage require live verification."
@@ -308,7 +308,7 @@
       "flags": "May 2027 start / degree eligibility: review; Experience minimum not parsed; review qualifications; Citizenship / export / clearance: review",
       "evidence": "Primary hardware role; RTL: SystemVerilog, RTL, Verilog; Programming: Python; Employer posting age: 0 days; freshness +10",
       "first_seen": "2026-10-28T03:42:12+00:00",
-      "last_seen": "2026-10-28T03:54:39+00:00",
+      "last_seen": "2026-10-28T04:04:43+00:00",
       "availability": "Seen in latest search"
     },
     {
@@ -328,7 +328,7 @@
       "flags": "May 2027 start / degree eligibility: review; Experience minimum not parsed; review qualifications; Citizenship / export / clearance: review; Posting date unavailable; first seen is not posting date",
       "evidence": "Primary hardware role; RTL: SystemVerilog, RTL, FPGA; Architecture: cache, SoC; Programming: C++, Python; Tools: Questa, Linux, Git",
       "first_seen": "2026-10-28T03:54:39+00:00",
-      "last_seen": "2026-10-28T03:54:39+00:00",
+      "last_seen": "2026-10-28T04:04:43+00:00",
       "availability": "Seen in latest search"
     },
     {
@@ -348,7 +348,7 @@
       "flags": "May 2027 start / degree eligibility: review; Experience minimum not parsed; review qualifications; Posting date unavailable; first seen is not posting date",
       "evidence": "Primary hardware role; RTL: RTL, Verilog; Architecture: SoC; Programming: C++, Python",
       "first_seen": "2026-10-28T03:54:39+00:00",
-      "last_seen": "2026-10-28T03:54:39+00:00",
+      "last_seen": "2026-10-28T04:04:43+00:00",
       "availability": "Seen in latest search"
     },
     {
@@ -367,7 +367,7 @@
       "flags": "May 2027 start / degree eligibility: review; Experience minimum not parsed; review qualifications; Citizenship / export / clearance: review",
       "evidence": "Primary hardware role; Programming: C++, Python; Employer posting age: 0 days; freshness +10",
       "first_seen": "2026-10-28T03:42:12+00:00",
-      "last_seen": "2026-10-28T03:54:39+00:00",
+      "last_seen": "2026-10-28T04:04:43+00:00",
       "availability": "Seen in latest search"
     },
     {
@@ -386,7 +386,7 @@
       "flags": "May 2027 start / degree eligibility: review; Experience minimum not parsed; review qualifications; Citizenship / export / clearance: review",
       "evidence": "Primary hardware role; RTL: SystemVerilog, RTL, Verilog; Architecture: SoC; Programming: C++, Python; Employer posting age: 13 days; freshness +4",
       "first_seen": "2026-10-28T03:42:12+00:00",
-      "last_seen": "2026-10-28T03:54:39+00:00",
+      "last_seen": "2026-10-28T04:04:43+00:00",
       "availability": "Seen in latest search"
     },
     {
@@ -406,7 +406,7 @@
       "flags": "May 2027 start / degree eligibility: review; Experience minimum not parsed; review qualifications; Citizenship / export / clearance: review; Graduate-degree requirement or preference: review; Posting date unavailable; first seen is not posting date",
       "evidence": "Primary hardware role; RTL: SystemVerilog, RTL; Programming: C++, Python; Tools: Git",
       "first_seen": "2026-10-28T03:54:39+00:00",
-      "last_seen": "2026-10-28T03:54:39+00:00",
+      "last_seen": "2026-10-28T04:04:43+00:00",
       "availability": "Seen in latest search"
     },
     {
@@ -426,7 +426,7 @@
       "flags": "May 2027 start / degree eligibility: review; Experience minimum not parsed; review qualifications; Citizenship / export / clearance: review; Graduate-degree requirement or preference: review; Posting date unavailable; first seen is not posting date",
       "evidence": "Primary hardware role; RTL: RTL, Verilog; Architecture: RISC-V, cache, SoC; Programming: Python",
       "first_seen": "2026-10-28T03:54:39+00:00",
-      "last_seen": "2026-10-28T03:54:39+00:00",
+      "last_seen": "2026-10-28T04:04:43+00:00",
       "availability": "Seen in latest search"
     },
     {
@@ -446,7 +446,7 @@
       "flags": "May 2027 start / degree eligibility: review; Experience minimum not parsed; review qualifications; Citizenship / export / clearance: review; Graduate-degree requirement or preference: review; Posting date unavailable; first seen is not posting date",
       "evidence": "Primary hardware role; RTL: SystemVerilog, RTL, Verilog; Programming: C++, Python; Tools: Linux",
       "first_seen": "2026-10-28T03:54:39+00:00",
-      "last_seen": "2026-10-28T03:54:39+00:00",
+      "last_seen": "2026-10-28T04:04:43+00:00",
       "availability": "Seen in latest search"
     },
     {
@@ -466,7 +466,7 @@
       "flags": "May 2027 start / degree eligibility: review; Experience minimum not parsed; review qualifications; Citizenship / export / clearance: review; Graduate-degree requirement or preference: review; Posting date unavailable; first seen is not posting date",
       "evidence": "Primary hardware role; RTL: SystemVerilog, RTL, FPGA; Architecture: cache; Programming: C++, Python",
       "first_seen": "2026-10-28T03:54:39+00:00",
-      "last_seen": "2026-10-28T03:54:39+00:00",
+      "last_seen": "2026-10-28T04:04:43+00:00",
       "availability": "Seen in latest search"
     },
     {
@@ -486,7 +486,7 @@
       "flags": "May 2027 start / degree eligibility: review; Graduate-degree requirement or preference: review; Posting date unavailable; first seen is not posting date",
       "evidence": "Primary hardware role; RTL: SystemVerilog, RTL; Programming: Python; Tools: Linux",
       "first_seen": "2026-10-28T03:54:39+00:00",
-      "last_seen": "2026-10-28T03:54:39+00:00",
+      "last_seen": "2026-10-28T04:04:43+00:00",
       "availability": "Seen in latest search"
     },
     {
@@ -506,7 +506,7 @@
       "flags": "May 2027 start / degree eligibility: review; Experience minimum not parsed; review qualifications; Graduate-degree requirement or preference: review; Posting date unavailable; first seen is not posting date",
       "evidence": "Primary hardware role; RTL: SystemVerilog, RTL, Verilog; Architecture: SoC; Programming: Python",
       "first_seen": "2026-10-28T03:54:39+00:00",
-      "last_seen": "2026-10-28T03:54:39+00:00",
+      "last_seen": "2026-10-28T04:04:43+00:00",
       "availability": "Seen in latest search"
     },
     {
@@ -526,7 +526,7 @@
       "flags": "May 2027 start / degree eligibility: review; Experience minimum not parsed; review qualifications; Posting date unavailable; first seen is not posting date",
       "evidence": "Primary hardware role; RTL: RTL, Verilog; Architecture: SoC; Programming: C++, Python",
       "first_seen": "2026-10-28T03:54:39+00:00",
-      "last_seen": "2026-10-28T03:54:39+00:00",
+      "last_seen": "2026-10-28T04:04:43+00:00",
       "availability": "Seen in latest search"
     },
     {
@@ -545,7 +545,7 @@
       "flags": "May 2027 start / degree eligibility: review; Requires 2+ years; experience gap review; Citizenship / export / clearance: review",
       "evidence": "Primary hardware role; Architecture: pipeline; Programming: Python, SQL; Tools: Git; Employer posting age: 8 days; freshness +4",
       "first_seen": "2026-10-28T03:42:12+00:00",
-      "last_seen": "2026-10-28T03:54:39+00:00",
+      "last_seen": "2026-10-28T04:04:43+00:00",
       "availability": "Seen in latest search"
     },
     {
@@ -564,7 +564,7 @@
       "flags": "May 2027 start / degree eligibility: review; Experience minimum not parsed; review qualifications; Citizenship / export / clearance: review; Graduate-degree requirement or preference: review",
       "evidence": "Primary hardware role; Programming: SQL; Employer posting age: 6 days; freshness +7",
       "first_seen": "2026-10-28T03:42:12+00:00",
-      "last_seen": "2026-10-28T03:54:39+00:00",
+      "last_seen": "2026-10-28T04:04:43+00:00",
       "availability": "Seen in latest search"
     },
     {
@@ -583,7 +583,7 @@
       "flags": "May 2027 start / degree eligibility: review; Experience minimum not parsed; review qualifications; Citizenship / export / clearance: review; Graduate-degree requirement or preference: review",
       "evidence": "Primary hardware role; Programming: Python; Employer posting age: 5 days; freshness +7",
       "first_seen": "2026-10-28T03:42:12+00:00",
-      "last_seen": "2026-10-28T03:54:39+00:00",
+      "last_seen": "2026-10-28T04:04:43+00:00",
       "availability": "Seen in latest search"
     },
     {
@@ -602,7 +602,7 @@
       "flags": "May 2027 start / degree eligibility: review; Requires 1+ years; experience gap review; Citizenship / export / clearance: review",
       "evidence": "Primary hardware role; Programming: Python, SQL; Employer posting age: 5 days; freshness +7",
       "first_seen": "2026-10-28T03:42:12+00:00",
-      "last_seen": "2026-10-28T03:54:39+00:00",
+      "last_seen": "2026-10-28T04:04:43+00:00",
       "availability": "Seen in latest search"
     },
     {
@@ -622,7 +622,7 @@
       "flags": "May 2027 start / degree eligibility: review; Experience minimum not parsed; review qualifications; Citizenship / export / clearance: review; Graduate-degree requirement or preference: review; Posting date unavailable; first seen is not posting date",
       "evidence": "Primary hardware role; RTL: RTL, Verilog; Programming: C++, Python",
       "first_seen": "2026-10-28T03:54:39+00:00",
-      "last_seen": "2026-10-28T03:54:39+00:00",
+      "last_seen": "2026-10-28T04:04:43+00:00",
       "availability": "Seen in latest search"
     },
     {
@@ -642,7 +642,7 @@
       "flags": "May 2027 start / degree eligibility: review; Experience minimum not parsed; review qualifications; Citizenship / export / clearance: review; Graduate-degree requirement or preference: review; Posting date unavailable; first seen is not posting date",
       "evidence": "Primary hardware role; RTL: SystemVerilog, RTL; Architecture: SoC",
       "first_seen": "2026-10-28T03:54:39+00:00",
-      "last_seen": "2026-10-28T03:54:39+00:00",
+      "last_seen": "2026-10-28T04:04:43+00:00",
       "availability": "Seen in latest search"
     },
     {
@@ -662,7 +662,7 @@
       "flags": "May 2027 start / degree eligibility: review; Experience minimum not parsed; review qualifications; Posting date unavailable; first seen is not posting date",
       "evidence": "Primary hardware role; RTL: SystemVerilog, RTL; Programming: Python",
       "first_seen": "2026-10-28T03:54:39+00:00",
-      "last_seen": "2026-10-28T03:54:39+00:00",
+      "last_seen": "2026-10-28T04:04:43+00:00",
       "availability": "Seen in latest search"
     },
     {
@@ -682,7 +682,7 @@
       "flags": "May 2027 start / degree eligibility: review; Experience minimum not parsed; review qualifications; Posting date unavailable; first seen is not posting date",
       "evidence": "Primary hardware role; RTL: FPGA; Programming: C++, Python",
       "first_seen": "2026-10-28T03:54:39+00:00",
-      "last_seen": "2026-10-28T03:54:39+00:00",
+      "last_seen": "2026-10-28T04:04:43+00:00",
       "availability": "Seen in latest search"
     },
     {
@@ -702,7 +702,7 @@
       "flags": "May 2027 start / degree eligibility: review; Experience minimum not parsed; review qualifications; Graduate-degree requirement or preference: review; Posting date unavailable; first seen is not posting date",
       "evidence": "Primary hardware role; RTL: RTL, Verilog; Programming: C++, Python",
       "first_seen": "2026-10-28T03:54:39+00:00",
-      "last_seen": "2026-10-28T03:54:39+00:00",
+      "last_seen": "2026-10-28T04:04:43+00:00",
       "availability": "Seen in latest search"
     },
     {
@@ -722,7 +722,7 @@
       "flags": "May 2027 start / degree eligibility: review; Experience minimum not parsed; review qualifications; Graduate-degree requirement or preference: review; Posting date unavailable; first seen is not posting date",
       "evidence": "Primary hardware role; RTL: RTL, Verilog; Programming: Python",
       "first_seen": "2026-10-28T03:54:39+00:00",
-      "last_seen": "2026-10-28T03:54:39+00:00",
+      "last_seen": "2026-10-28T04:04:43+00:00",
       "availability": "Seen in latest search"
     },
     {
@@ -742,7 +742,7 @@
       "flags": "May 2027 start / degree eligibility: review; Requires 2+ years; experience gap review; Citizenship / export / clearance: review; Graduate-degree requirement or preference: review; Posting date unavailable; first seen is not posting date",
       "evidence": "Primary hardware role; RTL: RTL, Verilog; Architecture: SoC; Programming: Python",
       "first_seen": "2026-10-28T03:54:39+00:00",
-      "last_seen": "2026-10-28T03:54:39+00:00",
+      "last_seen": "2026-10-28T04:04:43+00:00",
       "availability": "Seen in latest search"
     },
     {
@@ -761,7 +761,7 @@
       "flags": "May 2027 start / degree eligibility: review; Experience minimum not parsed; review qualifications",
       "evidence": "Secondary software / network / data role; Architecture: SoC; Programming: C++, Python; Tools: Git; Employer posting age: 7 days; freshness +7",
       "first_seen": "2026-10-28T03:42:12+00:00",
-      "last_seen": "2026-10-28T03:54:39+00:00",
+      "last_seen": "2026-10-28T04:04:43+00:00",
       "availability": "Seen in latest search"
     },
     {
@@ -780,7 +780,7 @@
       "flags": "May 2027 start / degree eligibility: review; Requires 2+ years; experience gap review; Citizenship / export / clearance: review",
       "evidence": "Secondary software / network / data role; Architecture: cache; Programming: C++; Tools: Linux; Employer posting age: 5 days; freshness +7",
       "first_seen": "2026-10-28T03:42:12+00:00",
-      "last_seen": "2026-10-28T03:54:39+00:00",
+      "last_seen": "2026-10-28T04:04:43+00:00",
       "availability": "Seen in latest search"
     },
     {
@@ -799,7 +799,7 @@
       "flags": "May 2027 start / degree eligibility: review; Requires 2+ years; experience gap review; Citizenship / export / clearance: review",
       "evidence": "Secondary software / network / data role; Architecture: cache; Programming: C++; Tools: Linux; Employer posting age: 5 days; freshness +7",
       "first_seen": "2026-10-28T03:42:12+00:00",
-      "last_seen": "2026-10-28T03:54:39+00:00",
+      "last_seen": "2026-10-28T04:04:43+00:00",
       "availability": "Seen in latest search"
     },
     {
@@ -818,7 +818,7 @@
       "flags": "May 2027 start / degree eligibility: review; Requires 2+ years; experience gap review; Citizenship / export / clearance: review",
       "evidence": "Secondary software / network / data role; Architecture: cache; Programming: C++; Tools: Linux; Employer posting age: 5 days; freshness +7",
       "first_seen": "2026-10-28T03:42:12+00:00",
-      "last_seen": "2026-10-28T03:54:39+00:00",
+      "last_seen": "2026-10-28T04:04:43+00:00",
       "availability": "Seen in latest search"
     },
     {
@@ -837,7 +837,7 @@
       "flags": "May 2027 start / degree eligibility: review; Requires 2+ years; experience gap review; Citizenship / export / clearance: review",
       "evidence": "Secondary software / network / data role; Architecture: cache; Programming: C++; Tools: Linux; Employer posting age: 5 days; freshness +7",
       "first_seen": "2026-10-28T03:42:12+00:00",
-      "last_seen": "2026-10-28T03:54:39+00:00",
+      "last_seen": "2026-10-28T04:04:43+00:00",
       "availability": "Seen in latest search"
     },
     {
@@ -856,7 +856,7 @@
       "flags": "May 2027 start / degree eligibility: review; Requires 2+ years; experience gap review; Citizenship / export / clearance: review",
       "evidence": "Secondary software / network / data role; Architecture: cache; Programming: C++; Tools: Linux; Employer posting age: 5 days; freshness +7",
       "first_seen": "2026-10-28T03:42:12+00:00",
-      "last_seen": "2026-10-28T03:54:39+00:00",
+      "last_seen": "2026-10-28T04:04:43+00:00",
       "availability": "Seen in latest search"
     },
     {
@@ -875,7 +875,7 @@
       "flags": "May 2027 start / degree eligibility: review; Requires 2+ years; experience gap review; Citizenship / export / clearance: review",
       "evidence": "Secondary software / network / data role; Architecture: cache; Programming: C++; Tools: Linux; Employer posting age: 5 days; freshness +7",
       "first_seen": "2026-10-28T03:42:12+00:00",
-      "last_seen": "2026-10-28T03:54:39+00:00",
+      "last_seen": "2026-10-28T04:04:43+00:00",
       "availability": "Seen in latest search"
     },
     {
@@ -894,7 +894,7 @@
       "flags": "May 2027 start / degree eligibility: review; Requires 2+ years; experience gap review; Citizenship / export / clearance: review",
       "evidence": "Secondary software / network / data role; Architecture: cache; Programming: C++; Tools: Linux; Employer posting age: 5 days; freshness +7",
       "first_seen": "2026-10-28T03:42:12+00:00",
-      "last_seen": "2026-10-28T03:54:39+00:00",
+      "last_seen": "2026-10-28T04:04:43+00:00",
       "availability": "Seen in latest search"
     },
     {
@@ -913,7 +913,7 @@
       "flags": "May 2027 start / degree eligibility: review; Requires 2+ years; experience gap review; Citizenship / export / clearance: review",
       "evidence": "Secondary software / network / data role; Architecture: cache; Programming: C++; Tools: Linux; Employer posting age: 5 days; freshness +7",
       "first_seen": "2026-10-28T03:42:12+00:00",
-      "last_seen": "2026-10-28T03:54:39+00:00",
+      "last_seen": "2026-10-28T04:04:43+00:00",
       "availability": "Seen in latest search"
     },
     {
@@ -932,7 +932,7 @@
       "flags": "May 2027 start / degree eligibility: review; Requires 2+ years; experience gap review; Citizenship / export / clearance: review",
       "evidence": "Secondary software / network / data role; Architecture: cache; Programming: C++; Tools: Linux; Employer posting age: 5 days; freshness +7",
       "first_seen": "2026-10-28T03:42:12+00:00",
-      "last_seen": "2026-10-28T03:54:39+00:00",
+      "last_seen": "2026-10-28T04:04:43+00:00",
       "availability": "Seen in latest search"
     },
     {
@@ -951,7 +951,7 @@
       "flags": "May 2027 start / degree eligibility: review; Experience minimum not parsed; review qualifications; Citizenship / export / clearance: review",
       "evidence": "Primary hardware role; Employer posting age: 7 days; freshness +7",
       "first_seen": "2026-10-28T03:42:12+00:00",
-      "last_seen": "2026-10-28T03:54:39+00:00",
+      "last_seen": "2026-10-28T04:04:43+00:00",
       "availability": "Seen in latest search"
     },
     {
@@ -970,7 +970,7 @@
       "flags": "May 2027 start / degree eligibility: review; Experience minimum not parsed; review qualifications; Citizenship / export / clearance: review",
       "evidence": "Primary hardware role; Employer posting age: 7 days; freshness +7",
       "first_seen": "2026-10-28T03:42:12+00:00",
-      "last_seen": "2026-10-28T03:54:39+00:00",
+      "last_seen": "2026-10-28T04:04:43+00:00",
       "availability": "Seen in latest search"
     },
     {
@@ -989,7 +989,7 @@
       "flags": "May 2027 start / degree eligibility: review; Experience minimum not parsed; review qualifications; Citizenship / export / clearance: review; Graduate-degree requirement or preference: review",
       "evidence": "Primary hardware role; Employer posting age: 14 days; freshness +4",
       "first_seen": "2026-10-28T03:42:12+00:00",
-      "last_seen": "2026-10-28T03:54:39+00:00",
+      "last_seen": "2026-10-28T04:04:43+00:00",
       "availability": "Seen in latest search"
     },
     {
@@ -1008,7 +1008,7 @@
       "flags": "May 2027 start / degree eligibility: review; Experience minimum not parsed; review qualifications; Citizenship / export / clearance: review; Graduate-degree requirement or preference: review",
       "evidence": "Primary hardware role; Employer posting age: 12 days; freshness +4",
       "first_seen": "2026-10-28T03:42:12+00:00",
-      "last_seen": "2026-10-28T03:54:39+00:00",
+      "last_seen": "2026-10-28T04:04:43+00:00",
       "availability": "Seen in latest search"
     },
     {
@@ -1027,7 +1027,7 @@
       "flags": "May 2027 start / degree eligibility: review; Experience minimum not parsed; review qualifications; Citizenship / export / clearance: review",
       "evidence": "Primary hardware role; Programming: Python; Employer posting age: 12 days; freshness +4",
       "first_seen": "2026-10-28T03:42:12+00:00",
-      "last_seen": "2026-10-28T03:54:39+00:00",
+      "last_seen": "2026-10-28T04:04:43+00:00",
       "availability": "Seen in latest search"
     },
     {
@@ -1046,7 +1046,7 @@
       "flags": "May 2027 start / degree eligibility: review; Requires 1+ years; experience gap review; Citizenship / export / clearance: review",
       "evidence": "Secondary software / network / data role; Programming: Python; Tools: Linux; Employer posting age: 4 days; freshness +7",
       "first_seen": "2026-10-28T03:42:12+00:00",
-      "last_seen": "2026-10-28T03:54:39+00:00",
+      "last_seen": "2026-10-28T04:04:43+00:00",
       "availability": "Seen in latest search"
     },
     {
@@ -1066,7 +1066,7 @@
       "flags": "May 2027 start / degree eligibility: review; Experience minimum not parsed; review qualifications; Posting date unavailable; first seen is not posting date",
       "evidence": "Primary hardware role",
       "first_seen": "2026-10-28T03:54:39+00:00",
-      "last_seen": "2026-10-28T03:54:39+00:00",
+      "last_seen": "2026-10-28T04:04:43+00:00",
       "availability": "Seen in latest search"
     },
     {
@@ -1085,7 +1085,7 @@
       "flags": "May 2027 start / degree eligibility: review; Experience minimum not parsed; review qualifications; Citizenship / export / clearance: review",
       "evidence": "Secondary software / network / data role; Programming: Python; Tools: Linux; Employer posting age: 13 days; freshness +4",
       "first_seen": "2026-10-28T03:42:12+00:00",
-      "last_seen": "2026-10-28T03:54:39+00:00",
+      "last_seen": "2026-10-28T04:04:43+00:00",
       "availability": "Seen in latest search"
     },
     {
@@ -1104,7 +1104,7 @@
       "flags": "May 2027 start / degree eligibility: review; Experience minimum not parsed; review qualifications; Citizenship / export / clearance: review",
       "evidence": "Secondary software / network / data role; Programming: Python; Tools: Linux; Employer posting age: 13 days; freshness +4",
       "first_seen": "2026-10-28T03:42:12+00:00",
-      "last_seen": "2026-10-28T03:54:39+00:00",
+      "last_seen": "2026-10-28T04:04:43+00:00",
       "availability": "Seen in latest search"
     },
     {
@@ -1123,7 +1123,7 @@
       "flags": "May 2027 start / degree eligibility: review; Requires 1+ years; experience gap review; Citizenship / export / clearance: review",
       "evidence": "Secondary software / network / data role; Programming: Python, SQL; Employer posting age: 2 days; freshness +10",
       "first_seen": "2026-10-28T03:42:12+00:00",
-      "last_seen": "2026-10-28T03:54:39+00:00",
+      "last_seen": "2026-10-28T04:04:43+00:00",
       "availability": "Seen in latest search"
     },
     {
@@ -1142,7 +1142,7 @@
       "flags": "May 2027 start / degree eligibility: review; Experience minimum not parsed; review qualifications; Citizenship / export / clearance: review",
       "evidence": "Secondary software / network / data role; Programming: C++, Python; Tools: Linux; Employer posting age: 0 days; freshness +10",
       "first_seen": "2026-10-28T03:42:12+00:00",
-      "last_seen": "2026-10-28T03:54:39+00:00",
+      "last_seen": "2026-10-28T04:04:43+00:00",
       "availability": "Seen in latest search"
     },
     {
@@ -1161,7 +1161,7 @@
       "flags": "May 2027 start / degree eligibility: review; Experience minimum not parsed; review qualifications; Citizenship / export / clearance: review",
       "evidence": "Secondary software / network / data role; Programming: C++, Python; Tools: Linux; Employer posting age: 6 days; freshness +7",
       "first_seen": "2026-10-28T03:42:12+00:00",
-      "last_seen": "2026-10-28T03:54:39+00:00",
+      "last_seen": "2026-10-28T04:04:43+00:00",
       "availability": "Seen in latest search"
     },
     {
@@ -1180,7 +1180,7 @@
       "flags": "May 2027 start / degree eligibility: review; Requires 2+ years; experience gap review; Citizenship / export / clearance: review",
       "evidence": "Secondary software / network / data role; Programming: Python, SQL; Employer posting age: 12 days; freshness +4",
       "first_seen": "2026-10-28T03:42:12+00:00",
-      "last_seen": "2026-10-28T03:54:39+00:00",
+      "last_seen": "2026-10-28T04:04:43+00:00",
       "availability": "Seen in latest search"
     },
     {
@@ -1199,7 +1199,7 @@
       "flags": "May 2027 start / degree eligibility: review; Requires 1+ years; experience gap review; Citizenship / export / clearance: review",
       "evidence": "Secondary software / network / data role; Programming: Python, SQL; Employer posting age: 9 days; freshness +4",
       "first_seen": "2026-10-28T03:42:12+00:00",
-      "last_seen": "2026-10-28T03:54:39+00:00",
+      "last_seen": "2026-10-28T04:04:43+00:00",
       "availability": "Seen in latest search"
     },
     {
@@ -1218,7 +1218,7 @@
       "flags": "May 2027 start / degree eligibility: review; Experience minimum not parsed; review qualifications; Citizenship / export / clearance: review",
       "evidence": "Secondary software / network / data role; Programming: C++, Python; Tools: Linux; Employer posting age: 14 days; freshness +4",
       "first_seen": "2026-10-28T03:42:12+00:00",
-      "last_seen": "2026-10-28T03:54:39+00:00",
+      "last_seen": "2026-10-28T04:04:43+00:00",
       "availability": "Seen in latest search"
     },
     {
@@ -1237,7 +1237,7 @@
       "flags": "May 2027 start / degree eligibility: review; Experience minimum not parsed; review qualifications; Citizenship / export / clearance: review; Graduate-degree requirement or preference: review",
       "evidence": "Secondary software / network / data role; Programming: C++, Python; Tools: Linux; Employer posting age: 8 days; freshness +4",
       "first_seen": "2026-10-28T03:42:12+00:00",
-      "last_seen": "2026-10-28T03:54:39+00:00",
+      "last_seen": "2026-10-28T04:04:43+00:00",
       "availability": "Seen in latest search"
     },
     {
@@ -1256,7 +1256,7 @@
       "flags": "May 2027 start / degree eligibility: review; Experience minimum not parsed; review qualifications; Citizenship / export / clearance: review",
       "evidence": "Secondary software / network / data role; Programming: C++, Python; Tools: Linux; Employer posting age: 11 days; freshness +4",
       "first_seen": "2026-10-28T03:42:12+00:00",
-      "last_seen": "2026-10-28T03:54:39+00:00",
+      "last_seen": "2026-10-28T04:04:43+00:00",
       "availability": "Seen in latest search"
     },
     {
@@ -1275,7 +1275,7 @@
       "flags": "May 2027 start / degree eligibility: review; Experience minimum not parsed; review qualifications; Citizenship / export / clearance: review",
       "evidence": "Secondary software / network / data role; Programming: C++, Python; Tools: Linux, Git; Employer posting age: 8 days; freshness +4",
       "first_seen": "2026-10-28T03:42:12+00:00",
-      "last_seen": "2026-10-28T03:54:39+00:00",
+      "last_seen": "2026-10-28T04:04:43+00:00",
       "availability": "Seen in latest search"
     },
     {
@@ -1294,7 +1294,7 @@
       "flags": "May 2027 start / degree eligibility: review; Experience minimum not parsed; review qualifications; Citizenship / export / clearance: review",
       "evidence": "Secondary software / network / data role; Programming: C++, Python; Tools: Linux, Git; Employer posting age: 8 days; freshness +4",
       "first_seen": "2026-10-28T03:42:12+00:00",
-      "last_seen": "2026-10-28T03:54:39+00:00",
+      "last_seen": "2026-10-28T04:04:43+00:00",
       "availability": "Seen in latest search"
     },
     {
@@ -1313,7 +1313,7 @@
       "flags": "May 2027 start / degree eligibility: review; Experience minimum not parsed; review qualifications; Citizenship / export / clearance: review",
       "evidence": "Secondary software / network / data role; Programming: C++, Python; Tools: Linux; Employer posting age: 8 days; freshness +4",
       "first_seen": "2026-10-28T03:42:12+00:00",
-      "last_seen": "2026-10-28T03:54:39+00:00",
+      "last_seen": "2026-10-28T04:04:43+00:00",
       "availability": "Seen in latest search"
     },
     {
@@ -1332,7 +1332,7 @@
       "flags": "May 2027 start / degree eligibility: review; Experience minimum not parsed; review qualifications; Citizenship / export / clearance: review",
       "evidence": "Secondary software / network / data role; Programming: C++, Python; Employer posting age: 0 days; freshness +10",
       "first_seen": "2026-10-28T03:42:12+00:00",
-      "last_seen": "2026-10-28T03:54:39+00:00",
+      "last_seen": "2026-10-28T04:04:43+00:00",
       "availability": "Seen in latest search"
     },
     {
@@ -1351,7 +1351,7 @@
       "flags": "May 2027 start / degree eligibility: review; Experience minimum not parsed; review qualifications; Citizenship / export / clearance: review",
       "evidence": "Secondary software / network / data role; Programming: C++, Python; Employer posting age: 3 days; freshness +10",
       "first_seen": "2026-10-28T03:42:12+00:00",
-      "last_seen": "2026-10-28T03:54:39+00:00",
+      "last_seen": "2026-10-28T04:04:43+00:00",
       "availability": "Seen in latest search"
     },
     {
@@ -1370,7 +1370,7 @@
       "flags": "May 2027 start / degree eligibility: review; Requires 2+ years; experience gap review; Citizenship / export / clearance: review",
       "evidence": "Secondary software / network / data role; Programming: C++, Python, SQL; Employer posting age: 1 days; freshness +10",
       "first_seen": "2026-10-28T03:42:12+00:00",
-      "last_seen": "2026-10-28T03:54:39+00:00",
+      "last_seen": "2026-10-28T04:04:43+00:00",
       "availability": "Seen in latest search"
     },
     {
@@ -1389,7 +1389,7 @@
       "flags": "May 2027 start / degree eligibility: review; Requires 2+ years; experience gap review; Citizenship / export / clearance: review",
       "evidence": "Secondary software / network / data role; Programming: C++, Python, SQL; Employer posting age: 1 days; freshness +10",
       "first_seen": "2026-10-28T03:42:12+00:00",
-      "last_seen": "2026-10-28T03:54:39+00:00",
+      "last_seen": "2026-10-28T04:04:43+00:00",
       "availability": "Seen in latest search"
     },
     {
@@ -1408,7 +1408,7 @@
       "flags": "May 2027 start / degree eligibility: review; Experience minimum not parsed; review qualifications; Citizenship / export / clearance: review",
       "evidence": "Secondary software / network / data role; Tools: Linux; Employer posting age: 6 days; freshness +7",
       "first_seen": "2026-10-28T03:42:12+00:00",
-      "last_seen": "2026-10-28T03:54:39+00:00",
+      "last_seen": "2026-10-28T04:04:43+00:00",
       "availability": "Seen in latest search"
     },
     {
@@ -1427,7 +1427,7 @@
       "flags": "May 2027 start / degree eligibility: review; Experience minimum not parsed; review qualifications; Citizenship / export / clearance: review",
       "evidence": "Secondary software / network / data role; Programming: Python; Employer posting age: 8 days; freshness +4",
       "first_seen": "2026-10-28T03:42:12+00:00",
-      "last_seen": "2026-10-28T03:54:39+00:00",
+      "last_seen": "2026-10-28T04:04:43+00:00",
       "availability": "Seen in latest search"
     }
   ],
