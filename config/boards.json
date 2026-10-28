@@ -1,0 +1,210 @@
+[
+  {
+    "company": "SiFive",
+    "provider": "greenhouse",
+    "slug": "sifive",
+    "careers_url": "https://job-boards.greenhouse.io/sifive",
+    "context": "Candidate source; endpoint and coverage require live verification."
+  },
+  {
+    "company": "Tenstorrent",
+    "provider": "greenhouse",
+    "slug": "tenstorrent",
+    "careers_url": "https://job-boards.greenhouse.io/tenstorrent",
+    "context": "Candidate source; endpoint and coverage require live verification."
+  },
+  {
+    "company": "Cerebras",
+    "provider": "greenhouse",
+    "slug": "cerebrassystems",
+    "careers_url": "https://job-boards.greenhouse.io/cerebrassystems",
+    "context": "Candidate source; endpoint and coverage require live verification."
+  },
+  {
+    "company": "Groq",
+    "provider": "greenhouse",
+    "slug": "groq",
+    "careers_url": "https://job-boards.greenhouse.io/groq",
+    "context": "Candidate source; endpoint and coverage require live verification."
+  },
+  {
+    "company": "Astera Labs",
+    "provider": "greenhouse",
+    "slug": "asteralabs",
+    "careers_url": "https://job-boards.greenhouse.io/asteralabs",
+    "context": "Candidate source; endpoint and coverage require live verification."
+  },
+  {
+    "company": "Lightmatter",
+    "provider": "greenhouse",
+    "slug": "lightmatter",
+    "careers_url": "https://job-boards.greenhouse.io/lightmatter",
+    "context": "Candidate source; endpoint and coverage require live verification."
+  },
+  {
+    "company": "Etched",
+    "provider": "greenhouse",
+    "slug": "etched",
+    "careers_url": "https://job-boards.greenhouse.io/etched",
+    "context": "Candidate source; endpoint and coverage require live verification."
+  },
+  {
+    "company": "d-Matrix",
+    "provider": "greenhouse",
+    "slug": "d-matrix",
+    "careers_url": "https://job-boards.greenhouse.io/d-matrix",
+    "context": "Candidate source; endpoint and coverage require live verification."
+  },
+  {
+    "company": "Celestial AI",
+    "provider": "greenhouse",
+    "slug": "celestialai",
+    "careers_url": "https://job-boards.greenhouse.io/celestialai",
+    "context": "Candidate source; endpoint and coverage require live verification."
+  },
+  {
+    "company": "Rivos",
+    "provider": "greenhouse",
+    "slug": "rivos",
+    "careers_url": "https://job-boards.greenhouse.io/rivos",
+    "context": "Candidate source; endpoint and coverage require live verification."
+  },
+  {
+    "company": "Ayar Labs",
+    "provider": "greenhouse",
+    "slug": "ayarlabs",
+    "careers_url": "https://job-boards.greenhouse.io/ayarlabs",
+    "context": "Candidate source; endpoint and coverage require live verification."
+  },
+  {
+    "company": "Enfabrica",
+    "provider": "greenhouse",
+    "slug": "enfabrica",
+    "careers_url": "https://job-boards.greenhouse.io/enfabrica",
+    "context": "Candidate source; endpoint and coverage require live verification."
+  },
+  {
+    "company": "SambaNova",
+    "provider": "greenhouse",
+    "slug": "sambanovasystems",
+    "careers_url": "https://job-boards.greenhouse.io/sambanovasystems",
+    "context": "Candidate source; endpoint and coverage require live verification."
+  },
+  {
+    "company": "Ampere",
+    "provider": "greenhouse",
+    "slug": "amperecomputing",
+    "careers_url": "https://job-boards.greenhouse.io/amperecomputing",
+    "context": "Candidate source; endpoint and coverage require live verification."
+  },
+  {
+    "company": "Alif Semiconductor",
+    "provider": "greenhouse",
+    "slug": "alifsemiconductor",
+    "careers_url": "https://job-boards.greenhouse.io/alifsemiconductor",
+    "context": "Candidate source; endpoint and coverage require live verification."
+  },
+  {
+    "company": "Analog Inference",
+    "provider": "greenhouse",
+    "slug": "analoginference",
+    "careers_url": "https://job-boards.greenhouse.io/analoginference",
+    "context": "Candidate source; endpoint and coverage require live verification."
+  },
+  {
+    "company": "Astranis",
+    "provider": "greenhouse",
+    "slug": "astranis",
+    "careers_url": "https://job-boards.greenhouse.io/astranis",
+    "context": "Candidate source; endpoint and coverage require live verification."
+  },
+  {
+    "company": "Anduril",
+    "provider": "greenhouse",
+    "slug": "andurilindustries",
+    "careers_url": "https://job-boards.greenhouse.io/andurilindustries",
+    "context": "Candidate source; endpoint and coverage require live verification."
+  },
+  {
+    "company": "SpaceX",
+    "provider": "greenhouse",
+    "slug": "spacex",
+    "careers_url": "https://job-boards.greenhouse.io/spacex",
+    "context": "Candidate source; endpoint and coverage require live verification."
+  },
+  {
+    "company": "Marvell",
+    "provider": "greenhouse",
+    "slug": "marvell",
+    "careers_url": "https://job-boards.greenhouse.io/marvell",
+    "context": "Candidate source; endpoint and coverage require live verification."
+  },
+  {
+    "company": "NVIDIA",
+    "slug": "nvidia",
+    "provider": "workday",
+    "host": "nvidia.wd5.myworkdayjobs.com",
+    "tenant": "nvidia",
+    "site": "NVIDIAExternalCareerSite",
+    "search_terms": [
+      "RTL",
+      "verification",
+      "new grad"
+    ],
+    "max_pages": 2,
+    "max_details": 20,
+    "careers_url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite",
+    "context": "Scoped hardware search; pagination and detail limits reported."
+  },
+  {
+    "company": "Intel",
+    "slug": "intel",
+    "provider": "workday",
+    "host": "intel.wd1.myworkdayjobs.com",
+    "tenant": "intel",
+    "site": "External",
+    "search_terms": [
+      "RTL",
+      "verification",
+      "new grad"
+    ],
+    "max_pages": 2,
+    "max_details": 20,
+    "careers_url": "https://intel.wd1.myworkdayjobs.com/en-US/External",
+    "context": "Scoped hardware search; pagination and detail limits reported."
+  },
+  {
+    "company": "Qualcomm",
+    "slug": "qualcomm",
+    "provider": "workday",
+    "host": "qualcomm.wd5.myworkdayjobs.com",
+    "tenant": "qualcomm",
+    "site": "External",
+    "search_terms": [
+      "RTL",
+      "verification",
+      "new grad"
+    ],
+    "max_pages": 2,
+    "max_details": 20,
+    "careers_url": "https://qualcomm.wd5.myworkdayjobs.com/en-US/External",
+    "context": "Scoped hardware search; pagination and detail limits reported."
+  },
+  {
+    "company": "Micron",
+    "slug": "micron",
+    "provider": "workday",
+    "host": "micron.wd1.myworkdayjobs.com",
+    "tenant": "micron",
+    "site": "External",
+    "search_terms": [
+      "RTL",
+      "verification",
+      "new grad"
+    ],
+    "max_pages": 2,
+    "max_details": 20,
+    "careers_url": "https://micron.wd1.myworkdayjobs.com/en-US/External",
+    "context": "Scoped hardware search; pagination and detail limits reported."
+  }
+]

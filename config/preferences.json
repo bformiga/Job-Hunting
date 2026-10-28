@@ -1,0 +1,65 @@
+{
+  "graduation": "2027-05",
+  "salary_floor": null,
+  "minimum_role_score": 40,
+  "preferred_metros": {},
+  "deprioritized_locations": [],
+  "skills": {
+    "RTL": [
+      "SystemVerilog",
+      "RTL",
+      "Verilog",
+      "FPGA"
+    ],
+    "Architecture": [
+      "RISC-V",
+      "cache",
+      "pipeline",
+      "accelerator",
+      "SoC"
+    ],
+    "Programming": [
+      "C++",
+      "Python",
+      "embedded C",
+      "SQL"
+    ],
+    "Tools": [
+      "Questa",
+      "Vivado",
+      "Linux",
+      "Git"
+    ]
+  },
+  "role_patterns": [
+    "architecture",
+    "architect",
+    "ASIC",
+    "SoC",
+    "RTL",
+    "verification",
+    "FPGA",
+    "silicon",
+    "hardware",
+    "embedded",
+    "firmware",
+    "network engineer",
+    "software engineer",
+    "data scien"
+  ],
+  "max_required_years": 2,
+  "excluded_companies": [],
+  "excluded_keywords": [],
+  "required_location_keywords": [],
+  "excluded_location_keywords": [],
+  "shortlist_limit": 5,
+  "shortlist_per_company": 2,
+  "stale_after_hours": 36,
+  "ranking_weights": {
+    "fit": 0.85,
+    "location": 0.5,
+    "freshness": 0.8
+  },
+  "salary_preference_usd": 70000,
+  "earliest_start": "2027-05"
+}

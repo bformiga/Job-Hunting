@@ -1,0 +1,3 @@
+# Check for jobs
+
+Read current repository preferences and data/jobs.json. Check generated_at and every source_status. Read current Sheet statuses before recommending jobs. If stale, run the GitHub workflow and then the bound script. Never clear manual application fields. Distinguish first_seen from posted_at. Verify the strongest employer links directly, required degree, years, US location, work type and May 2027 start compatibility. Recommend 3–5 manageable options with gaps and salary context. Unknown dates belong in a separate review group. Report failures and partial source coverage. Never submit applications or contact employers without explicit instructions.
