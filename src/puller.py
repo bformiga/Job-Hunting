@@ -254,6 +254,9 @@ def collect(board):
             break
         try:
             d = get_json(api + path)["jobPostingInfo"]
+            country = d.get("country", {}).get("descriptor", "")
+            if country and not re.search(r"united states|^USA$", country, re.I):
+                continue
             jobs.append(canonical(board, d.get("jobReqId") or path.rsplit("_", 1)[-1], d.get("title", j["title"]), d.get("location", j.get("locationsText", "")), f"https://{board['host']}/en-US/{board['site']}{path}", d.get("jobDescription", ""), employment_type=d.get("timeType", ""), posted_at=d.get("startDate", "") if re.match(r"^\d{4}-\d{2}-\d{2}$", d.get("startDate", "")) else d.get("postedOn", "") if re.match(r"^\d{4}-\d{2}-\d{2}", d.get("postedOn", "")) else ""))
             time.sleep(0.2)
         except (urllib.error.URLError, ValueError, KeyError) as e:
