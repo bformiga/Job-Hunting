@@ -95,7 +95,7 @@ def assess(job, prefs):
         if hits:
             score += 6
             evidence.append(label + ": " + ", ".join(hits[:3]))
-    early = bool(re.search(r"entry.level|new.grad|university.grad|engineer i\b|associate|2027", title + " " + desc[:2500], re.I))
+    early = bool(re.search(r"entry.level|new.grad|university.grad|engineer i\b|associate", title + " " + desc[:2500], re.I))
     score += 10 if early else 0
     score = min(score, 95 if early else 82)
     if years == 2:
@@ -112,6 +112,43 @@ def assess(job, prefs):
         flags.append("Citizenship / export / clearance: review")
     if re.search(r"master|ph\.?d|doctor", desc, re.I):
         flags.append("Graduate-degree requirement or preference: review")
+    # Resume alignment is a review heuristic, never an interview probability.
+    project_hits = []
+    for label, pattern in [
+        ("CPU / RTL projects", r"systemverilog|verilog|\brtl\b|risc.v|cache coherence|pipelined"),
+        ("Accelerator / SoC projects", r"systolic|accelerator|\bahb\b|\bsoc\b"),
+        ("Embedded projects", r"embedded|firmware|microcontroller|\bi2c\b|\bspi\b"),
+    ]:
+        if re.search(pattern, desc, re.I):
+            project_hits.append(label)
+    if project_hits:
+        evidence.append("Resume project overlap: " + ", ".join(project_hits))
+    direct_role = bool(re.search(r"rtl|verification|fpga|digital design|embedded|firmware|silicon validation", title, re.I))
+    if direct_role and project_hits:
+        score += 5
+    if re.search(r"architect", title, re.I) and not early:
+        score -= 12
+        flags.append("Architecture role: stretch; check required industry background")
+    if years == 2:
+        score -= 12
+        flags.append("Stretch: projects do not establish two years of professional experience")
+    elif years == 1:
+        score -= 6
+    if not early and years is None:
+        score -= 6
+    graduate_only = any(
+        re.search(r"master.?s|ph\.?d|doctor", line, re.I)
+        and re.search(r"required|must|minimum", line, re.I)
+        and not re.search(r"bachelor|\bbs\b|\bb\.s\.|preferred|equivalent", line, re.I)
+        for line in re.split(r"[\n;]|(?<=[.!?])\s+", desc)
+    )
+    if graduate_only:
+        score -= 22
+        flags.append("Major qualification gap: required graduate degree; verify alternatives")
+    if early and project_hits and (years is None or years == 0) and not graduate_only:
+        evidence.append("Closer fit: early-career wording plus relevant project evidence; review all requirements")
+    score = max(0, min(score, 95))
+
     geo, bonus = location_fit(loc, prefs)
     if geo == "Location review":
         flags.append("US location / city proximity needs review")
