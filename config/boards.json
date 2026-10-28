@@ -4,140 +4,164 @@
     "provider": "greenhouse",
     "slug": "sifive",
     "careers_url": "https://job-boards.greenhouse.io/sifive",
-    "context": "Candidate source; endpoint and coverage require live verification."
+    "context": "Inactive: endpoint failed verification; not counted as coverage.",
+    "enabled": false
   },
   {
     "company": "Tenstorrent",
     "provider": "greenhouse",
     "slug": "tenstorrent",
     "careers_url": "https://job-boards.greenhouse.io/tenstorrent",
-    "context": "Candidate source; endpoint and coverage require live verification."
+    "context": "Public board previously verified; source health reported each run."
   },
   {
     "company": "Cerebras",
     "provider": "greenhouse",
     "slug": "cerebrassystems",
     "careers_url": "https://job-boards.greenhouse.io/cerebrassystems",
-    "context": "Candidate source; endpoint and coverage require live verification."
+    "context": "Inactive: endpoint failed verification; not counted as coverage.",
+    "enabled": false
   },
   {
     "company": "Groq",
     "provider": "greenhouse",
     "slug": "groq",
     "careers_url": "https://job-boards.greenhouse.io/groq",
-    "context": "Candidate source; endpoint and coverage require live verification."
+    "context": "Inactive: endpoint failed verification; not counted as coverage.",
+    "enabled": false
   },
   {
     "company": "Astera Labs",
     "provider": "greenhouse",
     "slug": "asteralabs",
     "careers_url": "https://job-boards.greenhouse.io/asteralabs",
-    "context": "Candidate source; endpoint and coverage require live verification."
+    "context": "Public board previously verified; source health reported each run."
   },
   {
     "company": "Lightmatter",
     "provider": "greenhouse",
     "slug": "lightmatter",
     "careers_url": "https://job-boards.greenhouse.io/lightmatter",
-    "context": "Candidate source; endpoint and coverage require live verification."
+    "context": "Public board previously verified; source health reported each run."
   },
   {
     "company": "Etched",
     "provider": "greenhouse",
     "slug": "etched",
     "careers_url": "https://job-boards.greenhouse.io/etched",
-    "context": "Candidate source; endpoint and coverage require live verification."
+    "context": "Inactive: endpoint failed verification; not counted as coverage.",
+    "enabled": false
   },
   {
     "company": "d-Matrix",
     "provider": "greenhouse",
     "slug": "d-matrix",
     "careers_url": "https://job-boards.greenhouse.io/d-matrix",
-    "context": "Candidate source; endpoint and coverage require live verification."
+    "context": "Inactive: endpoint failed verification; not counted as coverage.",
+    "enabled": false
   },
   {
     "company": "Celestial AI",
     "provider": "greenhouse",
     "slug": "celestialai",
     "careers_url": "https://job-boards.greenhouse.io/celestialai",
-    "context": "Candidate source; endpoint and coverage require live verification."
+    "context": "Inactive: endpoint failed verification; not counted as coverage.",
+    "enabled": false
   },
   {
     "company": "Rivos",
     "provider": "greenhouse",
     "slug": "rivos",
     "careers_url": "https://job-boards.greenhouse.io/rivos",
-    "context": "Candidate source; endpoint and coverage require live verification."
+    "context": "Inactive: endpoint failed verification; not counted as coverage.",
+    "enabled": false
   },
   {
     "company": "Ayar Labs",
     "provider": "greenhouse",
     "slug": "ayarlabs",
     "careers_url": "https://job-boards.greenhouse.io/ayarlabs",
-    "context": "Candidate source; endpoint and coverage require live verification."
+    "context": "Inactive: endpoint failed verification; not counted as coverage.",
+    "enabled": false
   },
   {
     "company": "Enfabrica",
     "provider": "greenhouse",
     "slug": "enfabrica",
     "careers_url": "https://job-boards.greenhouse.io/enfabrica",
-    "context": "Candidate source; endpoint and coverage require live verification."
+    "context": "Inactive: endpoint failed verification; not counted as coverage.",
+    "enabled": false
   },
   {
     "company": "SambaNova",
     "provider": "greenhouse",
     "slug": "sambanovasystems",
     "careers_url": "https://job-boards.greenhouse.io/sambanovasystems",
-    "context": "Candidate source; endpoint and coverage require live verification."
+    "context": "Public board previously verified; source health reported each run."
   },
   {
     "company": "Ampere",
     "provider": "greenhouse",
     "slug": "amperecomputing",
     "careers_url": "https://job-boards.greenhouse.io/amperecomputing",
-    "context": "Candidate source; endpoint and coverage require live verification."
+    "context": "Inactive: endpoint failed verification; not counted as coverage.",
+    "enabled": false
   },
   {
     "company": "Alif Semiconductor",
-    "provider": "greenhouse",
-    "slug": "alifsemiconductor",
-    "careers_url": "https://job-boards.greenhouse.io/alifsemiconductor",
-    "context": "Candidate source; endpoint and coverage require live verification."
+    "provider": "lever",
+    "slug": "alifsemi",
+    "careers_url": "https://jobs.lever.co/alifsemi",
+    "context": "Public employer board; endpoint schema verified.",
+    "verified_count": 11
   },
   {
     "company": "Analog Inference",
     "provider": "greenhouse",
     "slug": "analoginference",
     "careers_url": "https://job-boards.greenhouse.io/analoginference",
-    "context": "Candidate source; endpoint and coverage require live verification."
+    "context": "Inactive: endpoint failed verification; not counted as coverage.",
+    "enabled": false
   },
   {
     "company": "Astranis",
     "provider": "greenhouse",
     "slug": "astranis",
     "careers_url": "https://job-boards.greenhouse.io/astranis",
-    "context": "Candidate source; endpoint and coverage require live verification."
+    "context": "Public board previously verified; source health reported each run."
   },
   {
     "company": "Anduril",
     "provider": "greenhouse",
     "slug": "andurilindustries",
     "careers_url": "https://job-boards.greenhouse.io/andurilindustries",
-    "context": "Candidate source; endpoint and coverage require live verification."
+    "context": "Paused at user request to reduce defense/aerospace coverage.",
+    "enabled": false
   },
   {
     "company": "SpaceX",
     "provider": "greenhouse",
     "slug": "spacex",
     "careers_url": "https://job-boards.greenhouse.io/spacex",
-    "context": "Candidate source; endpoint and coverage require live verification."
+    "context": "Paused at user request to reduce defense/aerospace coverage.",
+    "enabled": false
   },
   {
     "company": "Marvell",
-    "provider": "greenhouse",
     "slug": "marvell",
-    "careers_url": "https://job-boards.greenhouse.io/marvell",
-    "context": "Candidate source; endpoint and coverage require live verification."
+    "provider": "workday",
+    "host": "marvell.wd1.myworkdayjobs.com",
+    "tenant": "marvell",
+    "site": "MarvellCareers",
+    "search_terms": [
+      "new grad",
+      "RTL",
+      "verification"
+    ],
+    "max_pages": 2,
+    "max_details": 20,
+    "careers_url": "https://marvell.wd1.myworkdayjobs.com/en-US/MarvellCareers",
+    "context": "Scoped keyword search; endpoint schema verified; caps reported."
   },
   {
     "company": "NVIDIA",
@@ -154,7 +178,7 @@
     "max_pages": 2,
     "max_details": 20,
     "careers_url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite",
-    "context": "Scoped hardware search; pagination and detail limits reported."
+    "context": "Public board previously verified; source health reported each run."
   },
   {
     "company": "Intel",
@@ -171,7 +195,7 @@
     "max_pages": 2,
     "max_details": 20,
     "careers_url": "https://intel.wd1.myworkdayjobs.com/en-US/External",
-    "context": "Scoped hardware search; pagination and detail limits reported."
+    "context": "Public board previously verified; source health reported each run."
   },
   {
     "company": "Qualcomm",
@@ -188,7 +212,8 @@
     "max_pages": 2,
     "max_details": 20,
     "careers_url": "https://qualcomm.wd5.myworkdayjobs.com/en-US/External",
-    "context": "Scoped hardware search; pagination and detail limits reported."
+    "context": "Inactive: endpoint failed verification; not counted as coverage.",
+    "enabled": false
   },
   {
     "company": "Micron",
@@ -205,6 +230,115 @@
     "max_pages": 2,
     "max_details": 20,
     "careers_url": "https://micron.wd1.myworkdayjobs.com/en-US/External",
-    "context": "Scoped hardware search; pagination and detail limits reported."
+    "context": "Public board previously verified; source health reported each run."
+  },
+  {
+    "company": "NXP",
+    "slug": "nxp",
+    "provider": "workday",
+    "host": "nxp.wd3.myworkdayjobs.com",
+    "tenant": "nxp",
+    "site": "careers",
+    "search_terms": [
+      "new grad",
+      "RTL",
+      "verification"
+    ],
+    "max_pages": 2,
+    "max_details": 20,
+    "careers_url": "https://nxp.wd3.myworkdayjobs.com/en-US/careers",
+    "context": "Scoped keyword search; endpoint schema verified; caps reported."
+  },
+  {
+    "company": "Broadcom",
+    "slug": "broadcom",
+    "provider": "workday",
+    "host": "broadcom.wd1.myworkdayjobs.com",
+    "tenant": "broadcom",
+    "site": "External_Career",
+    "search_terms": [
+      "new grad",
+      "RTL",
+      "verification"
+    ],
+    "max_pages": 2,
+    "max_details": 20,
+    "careers_url": "https://broadcom.wd1.myworkdayjobs.com/en-US/External_Career",
+    "context": "Scoped keyword search; endpoint schema verified; caps reported."
+  },
+  {
+    "company": "KLA",
+    "slug": "kla",
+    "provider": "workday",
+    "host": "kla.wd1.myworkdayjobs.com",
+    "tenant": "kla",
+    "site": "Search",
+    "search_terms": [
+      "new grad",
+      "RTL",
+      "verification"
+    ],
+    "max_pages": 2,
+    "max_details": 20,
+    "careers_url": "https://kla.wd1.myworkdayjobs.com/en-US/Search",
+    "context": "Scoped keyword search; endpoint schema verified; caps reported."
+  },
+  {
+    "company": "Cadence",
+    "slug": "cadence",
+    "provider": "workday",
+    "host": "cadence.wd1.myworkdayjobs.com",
+    "tenant": "cadence",
+    "site": "External_Careers",
+    "search_terms": [
+      "new grad",
+      "RTL",
+      "verification"
+    ],
+    "max_pages": 2,
+    "max_details": 20,
+    "careers_url": "https://cadence.wd1.myworkdayjobs.com/en-US/External_Careers",
+    "context": "Scoped keyword search; endpoint schema verified; caps reported."
+  },
+  {
+    "company": "Microchip",
+    "slug": "microchiphr",
+    "provider": "workday",
+    "host": "microchiphr.wd5.myworkdayjobs.com",
+    "tenant": "microchiphr",
+    "site": "External",
+    "search_terms": [
+      "new grad",
+      "RTL",
+      "verification"
+    ],
+    "max_pages": 2,
+    "max_details": 20,
+    "careers_url": "https://microchiphr.wd5.myworkdayjobs.com/en-US/External",
+    "context": "Scoped keyword search; endpoint schema verified; caps reported."
+  },
+  {
+    "company": "Lumotive",
+    "provider": "lever",
+    "slug": "lumotive",
+    "careers_url": "https://jobs.lever.co/lumotive",
+    "context": "Public employer board; endpoint schema verified.",
+    "verified_count": 10
+  },
+  {
+    "company": "Omni Design Technologies",
+    "provider": "lever",
+    "slug": "omnidesigntech",
+    "careers_url": "https://jobs.lever.co/omnidesigntech",
+    "context": "Public employer board; endpoint schema verified.",
+    "verified_count": 56
+  },
+  {
+    "company": "Velaura",
+    "provider": "lever",
+    "slug": "velaura",
+    "careers_url": "https://jobs.lever.co/velaura",
+    "context": "Public employer board; endpoint schema verified.",
+    "verified_count": 51
   }
 ]
