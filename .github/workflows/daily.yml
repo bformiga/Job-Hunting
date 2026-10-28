@@ -36,6 +36,13 @@ jobs:
         run: |
           git config user.name 'job-feed-bot'
           git config user.email 'job-feed-bot@users.noreply.github.com'
+          # Publish only generated data on top of current main; preserve concurrent code edits.
+          cp data/jobs.json "$RUNNER_TEMP/jobs.json"
+          cp data/jobs.csv "$RUNNER_TEMP/jobs.csv"
+          git fetch origin main
+          git reset --hard origin/main
+          cp "$RUNNER_TEMP/jobs.json" data/jobs.json
+          cp "$RUNNER_TEMP/jobs.csv" data/jobs.csv
           git add data/jobs.json data/jobs.csv
           if ! git diff --cached --quiet; then
             git commit -m 'Refresh public job feed'
